@@ -1,6 +1,6 @@
 import introduceScholar from "./1a-introduce-scholar";
 
-test.skip("introduceScholar introduces a Scholar by name with their cohort number", () => {
+test("introduceScholar introduces a Scholar by name with their cohort number", () => {
   expect(
     introduceScholar({
       lastName: "Akaka",
